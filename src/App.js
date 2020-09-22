@@ -1,13 +1,12 @@
 import React from "react";
+import PicCard from "./components/PicCard"
 import "./App.css";
+import PicContainer from "./components/PicContainer";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <PicContainer />
     </div>
   );
 }
