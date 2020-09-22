@@ -4,6 +4,7 @@ import React from 'react';
 const PicCard = ({ picture }) => {
     console.log("props" , picture)
     return (
+    
     <div>
         <h2>{picture.title}</h2>
         <img style={{width:500, height:500}}src={picture.url} alt="See Explination"/>

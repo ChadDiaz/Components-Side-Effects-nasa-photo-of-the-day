@@ -12,7 +12,7 @@ const PicContainer = () => {
     // const [date, setDate] = useState('')
     
     useEffect(() => {
-        axios.get("https://api.nasa.gov/planetary/apod?api_key=fSDbaT0tSDURvG7vBj2amcClDalAZevlm3GJLXXV&date=2020-09-21")
+        axios.get("https://api.nasa.gov/planetary/apod?api_key=fSDbaT0tSDURvG7vBj2amcClDalAZevlm3GJLXXV")
         .then(response => {
             console.log("Suc Response" , response)
             setPicture(response.data)
