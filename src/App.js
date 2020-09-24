@@ -1,5 +1,5 @@
+
 import React from "react";
-import PicCard from "./components/PicCard"
 import "./App.css";
 import PicContainer from "./components/PicContainer";
 
