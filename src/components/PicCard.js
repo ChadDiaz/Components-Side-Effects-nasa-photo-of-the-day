@@ -12,7 +12,7 @@ const ContDiv = styled.div `
     padding: 10px;
 `
 const InfoCont = styled.div `
-background-image: src=public\images\nasa-logo.png;
+
 display: flex;
 flex-direction: column;
 align-content: space-between;
@@ -25,7 +25,7 @@ const PicCard = ({ picture }) => {
     
     return (
     <ContDiv>
-        <div className="image" style={{ backgroundImage: `url(${picture.url})`}}>
+        <div>
             <img src={picture.url} alt="See Explination"/>
         </div>
         <InfoCont> 
